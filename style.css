@@ -1,0 +1,75 @@
+                               /* HEADER STARTS FROM HERE */
+body{
+    overflow-x:hidden;
+}
+.dropdown2:hover .dropdown-menu2{
+    display: block;
+    margin-left: 90%;
+}
+.dropdown-item2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.dropdown1:hover .dropdown-menu1{
+    display: block;
+}
+.dropdown-item1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.nav-item{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bolder;
+    color: white;
+}
+.nav-item .active{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(149, 196, 80);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+.nav-item:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(149, 196, 80);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    color:white;
+}
+#password{
+    margin-left:210px;
+}
+.hro-btn{
+    display: block;
+    width: 100%;
+}
+.modal-footer p{
+    margin-right: 140px;
+}
+
+
+                                       /* HEADER ENDS AT HERE */
+
+                                       /* BODY STARTS FROM HERE */
+
+@media screen and (max-width:1680px){
+    body{
+        overflow-x: hidden;
+    }
+}
+.carousel-1{
+    margin-bottom: 170px;
+    margin-top: 30px;
+}
+.container1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.portfolio-card:hover{
+     background-color: rgb(47, 219, 113);
+     border:1px solid rgb(47, 219, 113);
+}
+.row-portfolio .col-md-3{
+    margin-bottom: 20px;
+}
